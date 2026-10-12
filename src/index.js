@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Ex20 from "./ex20/Ex20";
+import Ex21 from "./ex21/Ex21"
+import Ex22 from "./ex22/Ex22"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Ex22/>
   </React.StrictMode>
 );
 
